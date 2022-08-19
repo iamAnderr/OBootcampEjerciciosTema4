@@ -1,0 +1,19 @@
+public class Ejercicio_5 {
+    public static void main(String args[]) {
+    	var estacion = "invierno";
+
+        switch (estacion){
+            case "primavera":
+                System.out.println("Estamos en Primavera");
+                break;
+            case "verano":
+                System.out.println("Estamos en Verano");
+                break;
+            case "otono":
+                System.out.println("Estamos en otono");
+                break;
+            default:
+                System.out.println("Estamos en invierno");
+        }
+    }
+}
