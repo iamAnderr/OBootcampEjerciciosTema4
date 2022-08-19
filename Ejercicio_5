@@ -12,8 +12,11 @@ public class Ejercicio_5 {
             case "otono":
                 System.out.println("Estamos en otono");
                 break;
-            default:
+            case "invierno":
                 System.out.println("Estamos en invierno");
+                break;
+            default:
+                System.out.println("no estamos en ninguna estacion :v");
         }
     }
 }
